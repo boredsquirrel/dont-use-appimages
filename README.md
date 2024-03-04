@@ -67,7 +67,7 @@ Flatpak solved many Linux desktop issues at once
 - [sandboxes apps](https://docs.flatpak.org/en/latest/sandbox-permissions.html), using bubblewrap
 - permission system with GUI integration ([KDE Settings](https://userbase.kde.org/Tutorials/Flatpak), [Flatseal](https://flathub.org/apps/com.github.tchx84.Flatseal))
 - lots of [verified Applications](https://flathub.org/de/apps/collection/verified/1), that are officially supported (no downstream packaging issues)
-- discoverable through a central repository that allows filtered subsections, support for [many more repositories](https://github.com/trytomakeyouprivate/flatpak-remotes)
+- discoverable through a central repository with no restrictions, support for [many more repositories](https://github.com/trytomakeyouprivate/flatpak-remotes)
 - shared libraries, [using deduplication](https://gitlab.com/TheEvilSkeleton/flatpak-dedup-checker)
 - uses [Appstream metadata](https://www.freedesktop.org/software/appstream/docs/chap-Quickstart.html) for **an app name**, description, changelogs, screenshots and more
 - Flathub has a rating system, displays the used license and a lot more. It can be filtered by `verified`, `floss` and `verified & floss`.
@@ -85,6 +85,6 @@ There are many projects repackaging Appimages as Flatpaks, and those can then be
 
 To all developers considering using Appimage for "their linux version":
 
-### DON'T
+**DON'T**
 
 Please just use Flatpak, save us all the trouble and support a modern Linux desktop.
