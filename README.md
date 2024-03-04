@@ -33,7 +33,7 @@ cat ~/.local/share/applications/someapp.desktop
 Type=Application
 Name=SomeApp
 GenericName=Some description
-Comment=$"GenericName" #(yes you need both for different DE's)
+Comment="$GenericName" #(yes you need both for different DE's)
 Exec=/home/username/some-random-directory-probably-named-Apps/appname-version-architecture.desktop
 Icon=/home/user/some-random-directory-probably-inside-the-app-dir/some-random-icon-also-not-an-svg-from-some-random-website-edited-with-gimp.jpg
 ```
